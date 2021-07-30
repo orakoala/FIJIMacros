@@ -58,7 +58,9 @@ function processImage(imageTitle, imageId, output, magnification, tint) {
 
 	// Step 2: Merge 2 colored images
 	selectWindow(imageC0);
+	
 	run("Merge Channels...", "c1=[tseries_200laserpowerboth488+561-000.xml - C=0] c2=[tseries_200laserpowerboth488+561-000.xml - C=1] create keep");
+	
 	selectWindow("Composite");
 	
 	// Step 3: Set Global Scale for 60x Confocal Objective from CTAF Prairie Confocal Instrument
