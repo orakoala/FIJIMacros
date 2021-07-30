@@ -1,4 +1,4 @@
-# FIJIMacros
+# FIJI Macros!
 Custom FIJI Macros for image processing
 
 Download .ijm files directly and drag/drop to open in FIJI
