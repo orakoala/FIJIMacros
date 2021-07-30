@@ -20,3 +20,7 @@ Download .ijm files directly and drag/drop to open in FIJI
 - Run macro choosing the appropriate microscope output directory, keyword, and microscope scale
 - Macro assumes that you only want to identify the ROI's from Channel 2 (which should be your CF channel)
 - Macro saves all the identified ROI for each "Ch2" image into its own .csv file in the output directory
+
+**JustAddScaleBar.ijm**
+- Macro will add the same scale bar to all open images that match they keyword
+- Macro will not enhance contrast, save the image, or do any other processing
